@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Africa Technology Summit</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/custom.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/bootstrap-theme.min.css"> 
+<link href="css/font-awesome.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/parallax.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  var $ = jQuery.noConflict();
+  $(document).ready(function() { 
+      $('#myCarousel').carousel({ interval: 3000, cycle: true });
+  }); 
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+   $('li img').on('click',function(){
+        var src = $(this).attr('src');
+        var img = '<img src="' + src + '" class="img-responsive"/>';
+        $('#myModal_gallery').modal();
+        $('#myModal_gallery').on('shown.bs.modal', function(){
+            $('#myModal_gallery .modal-body').html(img);
+        });
+        $('#myModal_gallery').on('hidden.bs.modal', function(){
+            $('#myModal_gallery .modal-body').html('');
+        });
+   });
+})
+</script>
+</head>
+
+<body>
+
+    <div class="container-fluid" id="top_area">
+        <div class="container">
+        	<div class="row">
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="agenda.html">Agenda</a></li>
+                                <li><a href="speakers.html">Speakers</a></li>
+                                <li><a href="https://africatechsummit2016.eventbrite.com/" target="_blank">Register</a></li>
+                                <li><a href="http://afritech.wpengine.com/wp-content/uploads/2015/12/Africa-Tech-Summit-Recap-2015.pdf">2015 Recap</a></li>
+                                <li><a href="mailto:partnerships@meltwater.org" class="hvr-shutter-out-vertical">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-right"><img src="img_upload/mest_logo.png"></div>
+            </div>    
+        </div>
+    </div>
+    
+     <div class="container-fluid padding_big" id="inner_logo">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><img src="img_upload/logo_g.png" class="img-responsive"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container-fluid padding_big">
+    	<div class="container text-center">
+            <div class="row">
+            	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            		<p class="teal_text">Africa Tech Summit is fast becoming the marquee technology event on the continent. Following the successful inaugural event in Ghana last year, ATS is proud to make its entry into the city referred to as Africa’s Silicon Valley: Lagos. Pulling in the brightest minds in the field, and spanning across two days, ATS encourages attendees to interact and discuss using technology to achieve Africa’s goals. </p>
+                </div>    
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid padding_big" id="agenda">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="agenda_left">
+                	<div class="row"><h2 class="text-center">DAY 1</h2></div>
+                    <div class="row"><h3 class="text-center">Dec 6, 2016</h3></div>
+                    <div class="row agenda_tagline text-center"><p>Exploring the hottest sectors in African tech</p></div>
+                    <div class="row agenda_topic">
+                    	
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><p>Comparing Tech Landscapes Across Regions</p></div>
+                    </div>
+                    <div class="row agenda_topic">
+                    	
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><p>Building the Infrastructure to Support Africa's Ambitions</p></div>
+                    </div>
+                    <div class="row agenda_topic">
+                    	
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><p>Leaders In Fintech</p></div>
+                    </div>
+                    <div class="row agenda_topic">
+                    	
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><p>Developments in Agritech</p></div>
+                    </div>
+                    <div class="row padding_big text-center">
+                        <button type="button" class="btn btn-default btn-lg teal_background" data-toggle="modal" data-target="#myModal">VIEW FULL AGENDA</button>
+                        <!--<a href="" class="btn btn-default btn-lg salmon_background">VIEW FULL AGENDA</a>-->
+                    </div> 
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="agenda_right">
+                	<div class="row"><h2 class="text-center">DAY 2</h2></div>
+                    <div class="row"><h3 class="text-center">Dec 7, 2016</h3></div>
+                    <div class="row agenda_tagline text-center"><p>Examining the trends driving investment in Africa</p></div>
+                    <div class="row agenda_topic">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><p>Corporate Venture Capitalism</p></div>
+                        
+                    </div>
+                    <div class="row agenda_topic">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><p>MEST Startup Demo Day</p></div>
+                        
+                    </div>
+                    <div class="row agenda_topic">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><p>Investing in African Tech</p></div>
+                        
+                    </div>
+                   
+                    <div class="row padding_big text-center">
+                        <button type="button" class="btn btn-default btn-lg teal_background" data-toggle="modal" data-target="#myModal2">VIEW FULL AGENDA</button>
+                        <!--<a href="" class="btn btn-default btn-lg salmon_background">VIEW FULL AGENDA</a>-->
+                    </div> 
+                
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            		<a href="https://africatechsummit2016.eventbrite.com/" class="btn btn-default btn-lg salmon_background" target="_blank">REGISTER HERE</a>
+                </div>
+            </div>  
+        </div>
+    </div>
+    
+    
+    
+    <div class="container-fluid text-center teal_background padding_big">
+    	<div class="row">
+        	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h2>Want to partner with us?</h2>
+                <p>Position your organisation in front of the key players in African tech.<br />For speaking & sponsorship opportunities, email us at <a href="mailto:partnerships@meltwater.org">partnerships@meltwater.org</a></p>
+            </div>
+        </div>
+    </div>
+
+	<div class="container-fluid padding_big">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 text-center"><img src="img_upload/afritech_logo_bot.png"></div>
+            	<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 text-center hosted_text"><h3>HOSTED BY</h3></div>
+            	<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 text-center mest_logo_footer"><img src="img_upload/mest_logo.png"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid" id="footer">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grey_text" id="credits">Copyright 2016 Africa Tehcnology Summit.<br />All Rights Reserved</div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right" id="social_icons">
+                	<div class="row text-right">
+                    	<div id="heading_connect">Connect With Us</div>
+                        <div><a href="https://www.facebook.com/africatechsummit/"><img src="img_upload/icon_fb.png" class="img-responsive"></a></div>
+                        <div><a href="https://twitter.com/AfriTechSummit"><img src="img_upload/icon_twitter.png" class="img-responsive"></a></div>
+                        <div><a href="https://plus.google.com/105284679700045757263/"><img src="img_upload/icon_googleplus.png" class="img-responsive"></a></div>
+                        <div><a href="https://www.linkedin.com/company/meltwater-entrepreneurial-school-of-technology"><img src="img_upload/icon_linkedin.png" class="img-responsive"></a></div>
+                        <div><a href="https://www.instagram.com/mestafrica/"><img src="img_upload/icon_instagram.png" class="img-responsive"></a></div>
+                    </div>
+                	<div class="row"><a href="">Sitemap</a> | <a href="">Privacy Policy</a> | <a href="">Terms & Conditions</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Modal for Image Gallery -->
+
+<div class="modal fade" id="myModal_gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    	<div class="modal-header">
+        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        	<h4 class="modal-title" id="myModalLabel">AFRICA TECH SUMMIT 2015 VISUAL RECAP</h4>
+      	</div>
+      	<div class="modal-body">
+      	</div>
+      	<div class="modal-footer">
+        	<button type="button" class="btn btn-default salmon_background" data-dismiss="modal">Close</button>
+    	</div>
+    </div><!-- /.modal-content -->  
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- End of Modal for Image Gallery -->
+<!--Modal of Agenda 1 -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">AGENDA</h4>
+      </div>
+      <div class="modal-body">
+      	<div class="agenda_modal">
+        	<div class="row text-center"><img src="img_upload/logo_teal.png" ></div>
+        	<div class="row"><h2 class="text-center">DAY 1 - DEC 6, 2016</h2></div>
+            <div class="row"><h3 class="text-center">PANEL TOPICS</h3></div>
+            <div class="row agenda_tagline text-center"><p>Exploring the hottest sectors in African tech</p></div>
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">08:00 - 09:00 am</div>
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 agenda_text"><i class="fa fa-file-text-o "></i> Registration & Networking Breakfast</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">09:00 - 09:15 am</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-thumbs-o-up"></i> Welcome Message from MEST</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">09:15 - 10:00 am</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-comments-o"></i> Keynote Address</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">10:00 - 11:00 am</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-users"></i> Panel Session: Comparing Tech Landscapes Across Regions</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">11:00 - 12:00 pm</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-users"></i> Panel Session: Building the Infrastructure to Support Africa's Ambitions</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">12:00 - 01:30 pm</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-connectdevelop"></i> Networking & Lunch Break</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">01:30 - 02:30 pm</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-users"></i> Panel Session: Leaders In Fintech</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">02:30 - 03:30 pm</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-connectdevelop"></i> Networking Break & Exhibition</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">03:30 - 04:30 pm</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-users"></i> Panel Session: Developments in Agritech</div>
+            </div>
+            
+        </div>    
+      </div>
+      <div class="modal-footer">
+      	<a href="img_upload/full_schedule.pdf" target="_blank" class="btn btn-default teal_background">Full Schedule</a>
+        <button type="button" class="btn btn-default salmon_background" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Modal of Agenda 1 -->
+
+<!--Modal of Agenda 2 -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">AGENDA</h4>
+      </div>
+      <div class="modal-body">
+        	<div class="agenda_modal">
+        	<div class="row text-center"><img src="img_upload/logo_teal.png" ></div>
+        	<div class="row"><h2 class="text-center">DAY 2 - DEC 7, 2016</h2></div>
+            <div class="row"><h3 class="text-center">PANEL TOPICS</h3></div>
+            <div class="row agenda_tagline text-center"><p>Examining the trends driving investment in Africa</p></div>
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">08:00 - 09:00 am</div>
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 agenda_text"><i class="fa fa-file-text-o"></i> Registration & Networking Breakfast</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">09:00 - 09:30 am</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-comments-o"></i> Keynote Address</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">09:30 - 10:30 am</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-users"></i> Panel Session: Investing in Afritech</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">10:30 - 11:00 am</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-connectdevelop"></i> Networking & Coffee Break</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">11:00 - 11:15 am</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-lightbulb-o"></i> Intro to MEST Demo Day</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">11:15 - 12:30 pm</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-lightbulb-o"></i> MEST Startup Demo Day Pitches</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">12:30 pm - 01:30 pm</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-connectdevelop"></i> Networking & Lunch Break</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">01:30 - 02:30 pm</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-users"></i> Panel Session: Corporate Venture Capitalism</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">02:30 - 03:30 pm</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-lightbulb-o"></i> MEST Startup Demo Day Pitches</div>
+            </div>
+            <hr />
+            <div class="row padding_small">
+            	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 agenda_time">03:30 - 05:30 pm</div>
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 agenda_text"><i class="fa fa-connectdevelop"></i> Networking Reception & Exhibition Hall</div>
+            </div>
+            
+        </div>    
+      </div>
+      <div class="modal-footer">
+        <a href="img_upload/full_schedule.pdf" target="_blank" class="btn btn-default teal_background">Full Schedule</a>
+        <button type="button" class="btn btn-default salmon_background" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Modal of Agenda 2 -->
+</body>
+</html>

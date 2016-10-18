@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Africa Technology Summit</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/custom.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/bootstrap-theme.min.css"> 
+<link href="css/font-awesome.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/parallax.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  var $ = jQuery.noConflict();
+  $(document).ready(function() { 
+      $('#myCarousel').carousel({ interval: 3000, cycle: true });
+  }); 
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+   $('li img').on('click',function(){
+        var src = $(this).attr('src');
+        var img = '<img src="' + src + '" class="img-responsive"/>';
+        $('#myModal_gallery').modal();
+        $('#myModal_gallery').on('shown.bs.modal', function(){
+            $('#myModal_gallery .modal-body').html(img);
+        });
+        $('#myModal_gallery').on('hidden.bs.modal', function(){
+            $('#myModal_gallery .modal-body').html('');
+        });
+   });
+})
+</script>
+</head>
+
+<body>
+
+    <div class="container-fluid" id="top_area">
+        <div class="container">
+        	<div class="row">
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="agenda.html">Agenda</a></li>
+                                <li><a href="speakers.html">Speakers</a></li>
+                                <li><a href="https://africatechsummit2016.eventbrite.com/" target="_blank">Register</a></li>
+                                <li><a href="http://afritech.wpengine.com/wp-content/uploads/2015/12/Africa-Tech-Summit-Recap-2015.pdf">2015 Recap</a></li>
+                                <li><a href="mailto:partnerships@meltwater.org" class="hvr-shutter-out-vertical">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-right"><img src="img_upload/mest_logo.png"></div>
+            </div>    
+        </div>
+    </div>
+    
+    <div class="container-fluid padding_big" id="inner_logo">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><img src="img_upload/logo_g.png" class="img-responsive"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+   
+    
+    <div class="container-fluid padding_big" id="speakers">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                	<div class="row"><h1 class="teal_text text-center">Confirmed Speakers - Africa Technology Summit 2016</h1></div>
+                    <div class="row text-center"><h3><i>More announcements will be made in real time as new speakers are confirmed every day!</i></h3></div>
+                        <div class="row padding_big">
+                        
+                            
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/mitchell.jpg" alt="">
+                                    <div class="overlay">
+                                       <a class="info" href="https://www.linkedin.com/in/mitchell-elegbe-0069242" target="_blank">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Mitchell Elegbe</p>
+                                    <p class="speaker_designation">Founder & CEO, Interswitch</p>
+                                </div>
+                            </div>
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/funke.jpg" alt="">
+                                    <div class="overlay">
+                                       <!--<a class="info" href="#" target="_blank">View Details</a>-->
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Funke Opeke</p>
+                                    <p class="speaker_designation">Founder,  MainOne</p>
+                                </div>
+                            </div>
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/omobola.jpg" alt="">
+                                    <div class="overlay">
+                                       <!--<a class="info" href="#" target="_blank">View Details</a>-->
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Omobola Johnson</p>
+                                    <p class="speaker_designation">Chairperson, Global Alliance for Affordable Internet</p>
+                                </div>
+                            </div>
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/njoku.jpg" alt="">
+                                    <div class="overlay">
+                                       <a class="info" href="https://www.linkedin.com/in/jasonnj" target="_blank">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Jason Njoku,Founder</p>
+                                    <p class="speaker_designation">Spark, Founder & CEO, Iroko</p>
+                                </div>
+                            </div>
+                            
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/juliet.jpg" alt="">
+                                    <div class="overlay">
+                                       <a class="info" href="https://www.linkedin.com/in/juliet-ehimuan-a8aba115" target="_blank">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Juliet Ehimuan-Chiazor</p>
+                                    <p class="speaker_designation">Country Manager, Nigeria, Google</p>
+                                </div>
+                            </div>
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/miriam.jpg" alt="">
+                                    <div class="overlay">
+                                       <a class="info" href="https://www.linkedin.com/in/miriamquansah" target="_blank">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Miriam Quansah</p>
+                                    <p class="speaker_designation">2020 Digital Lead, BBC Africa</p>
+                                </div>
+                            </div>
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/aadil.jpg" alt="">
+                                    <div class="overlay">
+                                       <!--<a class="info" href="" target="_blank">View Details</a>-->
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Aadil Mamujee</p>
+                                    <p class="speaker_designation">Angel Investor, Musha Ventures</p>
+                                </div>
+                            </div>
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/ebi.jpg" alt="">
+                                    <div class="overlay">
+                                       <a class="info" href="https://www.linkedin.com/in/ebiatawodi" target="_blank">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Ebi Atawodi</p>
+                                    <p class="speaker_designation">General Manager, West Africa, Uber</p>
+                                </div>
+                            </div>
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/ajadi.jpg" alt="">
+                                    <div class="overlay">
+                                       <a class="info" href="https://www.linkedin.com/in/sam-ajadi-4173a594" target="_blank">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Sam Ajadi</p>
+                                    <p class="speaker_designation">Insights Manager - Ecosystem Accelerator, GSMA</p>
+                                </div>
+                            </div>
+                            
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/bruce.jpg" alt="">
+                                    <div class="overlay">
+                                       <!--<a class="info" href="#" target="_blank">View Details</a>-->
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Bruce Ayonote</p>
+                                    <p class="speaker_designation">CEO, The Suburban Group</p>
+                                </div>
+                            </div>
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/aboyeji.jpg" alt="">
+                                    <div class="overlay">
+                                       <a class="info" href="https://www.linkedin.com/in/eaboyeji" target="_blank">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Iyinoluwa Aboyeji</p>
+                                    <p class="speaker_designation">Co-founder & MD, Flutterwave</p>
+                                </div>
+                            </div>
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/charles.jpg" alt="">
+                                    <div class="overlay">
+                                       <!--<a class="info" href="#" target="_blank">View Details</a>-->
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Charles Ojei</p>
+                                    <p class="speaker_designation">MD, HYBR Group</p>
+                                </div>
+                            </div>
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/tayo.jpg" alt="">
+                                    <div class="overlay">
+                                       <a class="info" href="https://www.linkedin.com/in/tayo-oviosu-0a9a765" target="_blank">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Tayo Oviosu</p>
+                                    <p class="speaker_designation">Founder & CEO, Pagatech</p>
+                                </div>
+                            </div>
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/angel.jpg" alt="">
+                                    <div class="overlay">
+                                       <a class="info" href="https://www.linkedin.com/in/missadelaja" target="_blank">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Angel Adelaja</p>
+                                    <p class="speaker_designation">CEO, Fresh Direct</p>
+                                </div>
+                            </div>
+                            <div class="speaker_container">
+                                <div class="hovereffect">
+                                    <img class="img-responsive" src="img_upload/Speakers/jorn.jpg" alt="">
+                                    <div class="overlay">
+                                       <a class="info" href="https://www.linkedin.com/in/j%C3%B8rn-lyseggen-1146301" target="_blank">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="speaker_details">
+                                	<p class="speaker_name">Jorn Lyseggen</p>
+                                    <p class="speaker_designation">Founder, Mest</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="grey_text light_text">Would you like to join us as a sponsor at ATS? Do you have recommendations for people who'd be great panelists at ATS? Don't see your organisation represented?</p>
+    
+                        <p class="grey_text light_text">Contact <a href="mailto:katie@meltwater.org">katie@meltwater.org</a> for sponsor & speaking availability across categories like FinTech, Developments in Agritech, Corporate Venture Capitalism, Investing in African Tech, and many others.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="container-fluid text-center teal_background padding_big">
+    	<div class="row">
+        	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="newsletter">
+                <form action="https://meltwater.us2.list-manage.com/subscribe/post?u=4cc5f6e8773318248e5056eee&amp;id=bdf73e70e1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
+						<div class="form-group">
+                        	<p>Insights and Updates from ATS, delivered straight to your inbox</p>
+                        </div>	
+                        <div class="form-group">
+                            <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Your Email" required>
+                        </div>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                            <input type="text" name="b_4cc5f6e8773318248e5056eee_bdf73e70e1" tabindex="-1" value="">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default salmon_background">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+	<div class="container-fluid padding_big">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 text-center"><img src="img_upload/afritech_logo_bot.png"></div>
+            	<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 text-center hosted_text"><h3>HOSTED BY</h3></div>
+            	<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 text-center mest_logo_footer"><img src="img_upload/mest_logo.png"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid" id="footer">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grey_text" id="credits">Copyright 2016 Africa Tehcnology Summit.<br />All Rights Reserved</div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right" id="social_icons">
+                	<div class="row text-right">
+                    	<div id="heading_connect">Connect With Us</div>
+                        <div><a href="https://www.facebook.com/africatechsummit/"><img src="img_upload/icon_fb.png" class="img-responsive"></a></div>
+                        <div><a href="https://twitter.com/AfriTechSummit"><img src="img_upload/icon_twitter.png" class="img-responsive"></a></div>
+                        <div><a href="https://plus.google.com/105284679700045757263/"><img src="img_upload/icon_googleplus.png" class="img-responsive"></a></div>
+                        <div><a href="https://www.linkedin.com/company/meltwater-entrepreneurial-school-of-technology"><img src="img_upload/icon_linkedin.png" class="img-responsive"></a></div>
+                        <div><a href="https://www.instagram.com/mestafrica/"><img src="img_upload/icon_instagram.png" class="img-responsive"></a></div>
+                    </div>
+                	<div class="row"><a href="">Sitemap</a> | <a href="">Privacy Policy</a> | <a href="">Terms & Conditions</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Modal for Image Gallery -->
+
+<div class="modal fade" id="myModal_gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    	<div class="modal-header">
+        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        	<h4 class="modal-title" id="myModalLabel">AFRICA TECH SUMMIT 2015 VISUAL RECAP</h4>
+      	</div>
+      	<div class="modal-body">
+      	</div>
+      	<div class="modal-footer">
+        	<button type="button" class="btn btn-default salmon_background" data-dismiss="modal">Close</button>
+    	</div>
+    </div><!-- /.modal-content -->  
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- End of Modal for Image Gallery -->
+
+</body>
+</html>
