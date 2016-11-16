@@ -269,6 +269,52 @@ h3
 	text-align:center;
 }
 
+#agenda_left .agenda_topic a, #agenda_right .agenda_topic a
+{
+	color:#28bbbb;
+	text-decoration:underline;
+}
+
+#agenda_left .agenda_topic a:hover, #agenda_right .agenda_topic a:hover
+{
+	color:#28bbbb;
+	text-decoration:none;
+}
+
+h3.single_panel_topic {
+    color: #797979;
+    font-size: 28px;
+}
+
+h3.single_panel_topic i {
+    font-size: 42px;
+    padding: 10px 0;
+}
+
+.panel_desc {
+    margin: 20px 0;
+}
+
+.panel_desc li
+{
+	margin-left:35px;
+}
+
+.moderator
+{
+	display:block;
+	padding:3px 0px 5px;
+	font-style:normal !important;
+}
+
+.panel_speakers .speaker_container > div {
+    min-height: 200px;
+}
+
+.panel_speakers .speaker_container {
+    width: 100%;
+}
+
 /*.agenda_topic > [class^="col-"],
 .agenda_topic > [class*=" col-"] {
   display: flex;
@@ -378,6 +424,30 @@ h3
 #social_icons div {
     display: inline-block;
     vertical-align: middle;
+}
+
+.agenda_inner a
+{
+	color:#000;
+	text-decoration:underline;
+}
+
+.agenda_inner a:hover
+{
+	color:#000;
+	text-decoration:none;
+}
+
+.agenda_inner2 a
+{
+	color:#fff;
+	text-decoration:underline;
+}
+
+.agenda_inner2 a:hover
+{
+	color:#fff;
+	text-decoration:none;
 }
 
 .agenda_modal, .agenda_inner
